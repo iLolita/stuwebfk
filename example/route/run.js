@@ -1,5 +1,6 @@
 var App = require("../..").App,
-    app = new App;
+    app = new App,
+    static = require("../../lib/static.js");
 
     app.use(static("/public"));
 
