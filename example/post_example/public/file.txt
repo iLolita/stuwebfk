@@ -1,0 +1,2 @@
+1./(boundary=)/gi.test(contentType);
+2.static
