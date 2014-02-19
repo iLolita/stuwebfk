@@ -1,8 +1,5 @@
 var App = require("../..").App,
     app = new App;
-var static = require("../..").static;
-
-    app.use(static(__dirname+"/"));
 
     app.post("/post",function(req,res){
         var body_data = "";
